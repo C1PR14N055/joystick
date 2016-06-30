@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                         textView5.setText("Direction : Down Right");
                     } else if(direction == JoyStick.STICK_DOWN) {
                         textView5.setText("Direction : Down");
-                    } else if(direction == JoyStick.STICK_DOWNLEFT) {
+                    } else if(direction == JoyStick.STICK_DOWN_LEFT) {
                         textView5.setText("Direction : Down Left");
                     } else if(direction == JoyStick.STICK_LEFT) {
                         textView5.setText("Direction : Left");
