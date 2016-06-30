@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         js.setLayoutSize(700, 700);
         js.setLayoutAlpha(150);
         js.setStickAlpha(100);
-        js.setOffset(90);
+        js.setOffset(100);
         js.setMinimumDistance(15);
 
         layout_joystick.setOnTouchListener(new View.OnTouchListener() {
@@ -79,11 +79,11 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 } else if (arg1.getAction() == MotionEvent.ACTION_UP) {
-                    textView1.setText("X :");
-                    textView2.setText("Y :");
-                    textView3.setText("Angle :");
-                    textView4.setText("Distance :");
-                    textView5.setText("Direction :");
+                    textView1.setText("X : 0");
+                    textView2.setText("Y : 0");
+                    textView3.setText("Angle : 0");
+                    textView4.setText("Distance : 0");
+                    textView5.setText("Direction : -");
                 }
                 return true;
             }
